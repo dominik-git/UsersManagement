@@ -1,0 +1,36 @@
+
+<form name="editForm" id="editForm" class=" form-horizontal" >
+    <!-- Text input-->
+    <table class="users-table">
+        <tr>
+            <td>Address:</td>
+            <td class="edit-field"> <input type="text" name="name" ng-model="selectedUser.address" class="form-control"></td>
+        </tr>
+        <tr>
+            <td>City:</td>
+            <td class="edit-field"> <input type="text" name="name" ng-model="selectedUser.city" class="form-control"> </td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td class="edit-field"> <input type="text" name="name" ng-model="selectedUser.phone" class="form-control"> </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td class="edit-field"> <input type="text" name="name" ng-model="selectedUser.email" class="form-control"> </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="button" class="btn btn-default btn-sm" ng-click="editForm.$setPristine();toggleEdit()">Cancel</button>
+                <button type="button" class="btn btn-info btn-sm" ng-click="showEditModal()"
+                        ng-class="{'disabled':editForm.$pristine}"
+                >Save
+                </button>
+            </td>
+
+        </tr>
+    </table>
+
+
+
+</form>

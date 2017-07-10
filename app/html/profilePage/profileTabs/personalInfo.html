@@ -1,0 +1,28 @@
+ <table class="users-table" ng-hide="selectedTab.editTemplate.active">
+        <tr>
+            <td>
+               First name:
+            </td>
+            <td>{{selectedUser.name}}</td>
+        </tr>
+        <tr>
+            <td>
+                Last name:
+            </td>
+            <td>{{selectedUser.lastName}}</td>
+        </tr>
+        <tr>
+            <td>
+                Date of birth
+            </td>
+            <td>{{selectedUser.date | date:'dd/MM/yyyy'}}</td>
+        </tr>
+         <tr>
+             <td>
+                 Gender
+             </td>
+             <td>{{selectedUser.gender}}</td>
+         </tr>
+
+    </table>
+     <div ng-show="selectedTab.editTemplate.active" ng-include="currentEditForm" class="user-tab"></div>

@@ -1,0 +1,20 @@
+<table class="users-table animate-show-hide" ng-hide="selectedTab.editTemplate.active">
+        <tr>
+            <td>Address:</td>
+            <td>{{selectedUser.address}}</td>
+        </tr>
+        <tr>
+            <td>City:</td>
+            <td>{{selectedUser.city}}</td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td>{{selectedUser.phone}}</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>{{selectedUser.email}}</td>
+        </tr>
+</table>
+
+<div ng-show="selectedTab.editTemplate.active" ng-include="currentEditForm" class="user-tab animate-show-hide"></div>

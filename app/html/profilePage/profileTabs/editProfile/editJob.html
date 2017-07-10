@@ -1,0 +1,28 @@
+
+<form name="editForm" id="editForm" class=" form-horizontal" >
+    <!-- Text input-->
+    <table class="users-table">
+        <tr>
+            <td>Possition</td>
+            <td class="edit-field"> <input type="text" name="name" ng-model="selectedUser.possition" class="form-control"> </td>
+        </tr>
+        <tr>
+            <td>Sallary</td>
+            <td class="edit-field"> <input type="text" name="name" ng-model="selectedUser.sallary" class="form-control"> </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="button" class="btn btn-default btn-sm" ng-click="editForm.$setPristine();toggleEdit()">Cancel</button>
+                <button type="button" class="btn btn-info btn-sm"  ng-click="showEditModal();editForm.$setPristine()"
+                        ng-class="{'disabled':editForm.$pristine}"
+                >Save
+                </button>
+            </td>
+
+        </tr>
+    </table>
+
+
+
+</form>

@@ -1,0 +1,13 @@
+
+    <table class="users-table"  ng-hide="selectedTab.editTemplate.active">
+        <tr>
+            <td>Position:</td>
+            <td>{{selectedUser.possition}}</td>
+        </tr>
+        <tr>
+            <td>Sallary:</td>
+            <td>{{selectedUser.sallary}} €</td>
+        </tr>
+    </table>
+
+    <div ng-show="selectedTab.editTemplate.active" ng-include="currentEditForm" class="user-tab"></div>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>D.K.</title>
+    <link href="../libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="css/bootstrap-theme-dark.css" rel="stylesheet">
+    <link href="css/heroic-features.css" rel="stylesheet">
+    <link href="../libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="../libs/AngularJS-Toaster/toaster.min.css" rel="stylesheet" >
+    <link href="../libs/ladda/dist/ladda-themeless.min.css" rel="stylesheet" >
+    <link href="css/main.css" rel="stylesheet" >
+    <link href="css/about.css" rel="stylesheet" >
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand " href="#/">
+                    <span class="glyphicon glyphicon-home"></span>Home
+                </a>
+
+            </div>
+
+            <div class="collapse navbar-collapse main-nav " id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li ><a href="#/users"> <span class="glyphicon glyphicon-user"></span>All users
+                        </a>
+                    </li>
+                    <li ><a href="#/createNewUser"><span class="glyphicon glyphicon-plus"></span>Create New User
+                        </a>
+                    </li>
+                    <li ><a href="#/about"><span class="glyphicon glyphicon-info-sign"></span>About Autor
+                        </a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div ng-view></div>
+        <toaster-container toaster-options="{'position-class': 'toast-bottom-full-width'}"></toaster-container>
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- /.container -->
+
+    <script src="../libs/angular/angular.min.js" ></script >
+    <script src="../libs/angular-resource/angular-resource.min.js" ></script >
+    <script src="../libs/angular-route/angular-route.min.js"></script>
+    <script src="../libs/spin.js/spin.js" ></script >
+    <script src="../libs/angular-animate/angular-animate.min.js" ></script >
+    <script src="../libs/ladda/dist/ladda.min.js" ></script >
+    <script src="../libs/angular-ladda/dist/angular-ladda.min.js" ></script >
+    <script src="../libs/angular-strap/dist/angular-strap.min.js" ></script >
+    <script src="../libs/angular-strap/dist/angular-strap.tpl.min.js" ></script >
+    <script src="../libs/AngularJS-Toaster/toaster.min.js" ></script >
+    <script src="../node_modules/custom-input/dist/custom-input.js"></script>
+    <script src="../node_modules/angular-datetime-input/dist/datetime.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js" ></script >
+    <script src="controllers/userListController.js"></script>
+    <script src="controllers/userCreateController.js"></script>
+    <script src="controllers/userProfileController.js"></script>
+    <script src="services/dataUserFactory.js"></script>
+    <script src="services/dataUserService.js"></script>
+    <script src="directives/userProfileDirective.js"> </script>
+    <script src="directives/userDirective.js"></script>
+
+</body>
+</html>

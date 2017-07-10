@@ -1,0 +1,36 @@
+<div class="container well  hero-spacer">
+
+    <div class="row">
+        <div>
+            <img src="assets/img/back.png" alt="back" />
+        </div>
+        <div class="col-md-3 col-sm-12 center-block">
+            <img src="http://via.placeholder.com/350x350" class="img-responsive" />
+            <h6></h6>
+        </div>
+        <div class="col-md-9 col-sm-12 ">
+                <ul class="nav nav-tabs main-nav ">
+                        <li ng-repeat="tab in tabs" ng-class="{active: current == tab.name}">
+                            <a ng-bind="tab.name" ng-click="toggleTab(tab)"></a>
+                        </li>
+                    <li class="pull-right" id="setting-button">
+                        <button type="button" class="btn btn-primary btn-sm" ng-click="toggleEdit()">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                        </button>
+                    </li>
+                    <li class="pull-right" id="setting-button">
+                        <button type="button" class="btn btn-danger btn-sm" ng-click="showModal()">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </button>
+                    </li>
+                </ul>
+
+            <div ng-include="currentTab" class="user-tab"></div>
+
+
+         </div>
+
+    </div>
+
+
+</div>

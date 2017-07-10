@@ -1,0 +1,42 @@
+{
+  "name": "angular-project",
+  "version": "1.0.0",
+  "local-web-server": {
+    "port": 8100,
+    "rewrite": [
+      {
+        "from": "/user/getAll",
+        "to": "http://localhost:8090/user/getAll"
+      },
+      {
+        "from": "/user/create",
+        "to": "http://localhost:8090/user/create"
+      },
+      {
+        "from": "/user/deleteUser/:id",
+        "to": "http://localhost:8090/user/deleteUser/:id"
+      },
+      {
+        "from": "/user/update",
+        "to": "http://localhost:8090/user/update"
+      }
+    ],
+    "forbid": "*.json"
+  },
+  "scripts": {
+    "start": "ws"
+  },
+  "devDependencies": {
+    "local-web-server": "^1.2.8"
+  },
+  "dependencies": {
+    "angular-datetime-input": "^5.0.0"
+  },
+  "main": "index.html",
+  "author": "dominik",
+  "license": "ISC",
+  "description": "description",
+  "repository": {
+    "private": true
+  }
+}

@@ -1,0 +1,181 @@
+<div class="container well hero-spacer">
+
+    <form name="userForm" class=" form-horizontal" >
+        <fieldset>
+
+            <div class="col-md-3 col-sm-5 col-xs-12">
+                <!-- Form Name -->
+                <legend>Create New User</legend>
+                <h6>Please fill all required fields *</h6>
+            </div>
+                <!-- Text input-->
+            <div class="col-md-9 col-sm-7 col-xs-12 center">
+                <div class="form-group">
+                    <label class="col-md-2 control-label">First Name*</label>
+                    <div class="col-md-6 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input  name="name" placeholder="First Name" class="form-control"  type="text"
+                            ng-model="newUser.name" required>
+                        </div>
+                        <span ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="input-error">This field is required!</span>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-2 control-label" >Last Name*</label>
+                    <div class="col-md-6 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="lastName" placeholder="Last Name" class="form-control"  type="text"
+                                   ng-model="newUser.lastName" required>
+                        </div>
+                        <span ng-show="userForm.lastName.$invalid && !userForm.lastName.$pristine" class="input-error">This field is required!</span>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-2 control-label">E-Mail*</label>
+                    <div class="col-md-6 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                            <input name="email" placeholder="E-Mail Address" class="form-control"  type="text"
+                                   ng-model="newUser.email"
+                                   ng-pattern = '/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i'
+                                   required
+                            >
+                        </div>
+                        <span class="input-error" ng-show="userForm.email.$error.required && !userForm.email.$pristine">
+                            This field is required!
+                        </span>
+                        <span class="input-error" ng-show="userForm.email.$error.pattern">
+                            Please input a valid email.
+                        </span>
+                    </div>
+                </div>
+
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Phone</label>
+                    <div class="col-md-6 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                            <input name="phone" placeholder="(845)555-1212" class="form-control" type="text"
+                                   ng-model="newUser.phone"
+                            >
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Address</label>
+                    <div class="col-md-6 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                            <input name="address" placeholder="Address" class="form-control" type="text"
+                                   ng-model="newUser.address"
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-2 control-label">City*</label>
+                    <div class="col-md-6 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                            <input name="city" placeholder="city" class="form-control"  type="text"
+                                   ng-model="newUser.city" required
+                            >
+                        </div>
+                        <span class="input-error" ng-show="userForm.city.$error.required && !userForm.city.$pristine">
+                            This field is required!
+                        </span>
+                    </div>
+                </div>
+
+
+                <!-- Birth day -->
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Birthdate*</label>
+                    <div class="col-md-6 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                            <input type="text"
+                                   name="bday"
+                                   class="form-control"
+                                   ng-model="newUser.date"
+                                   bs-datepicker
+                                   placeholder="dd//MM/yyyy"
+                            />
+                        </div>
+                        <span class="input-error" ng-show="userForm.city.$error.required && !userForm.city.$pristine">
+                            This field is required!
+                        </span>
+                    </div>
+                </div>
+
+
+                <!-- Select Basic -->
+
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Gender*</label>
+                    <div class="col-md-6 selectContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                            <select name="gender" class="form-control selectpicker" ng-model="newUser.gender" required>
+                                <option value="" >Please select your gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+                        <span class="input-error" ng-show="userForm.gender.$error.required && !userForm.gender.$pristine">
+                            This field is required!
+                        </span>
+                    </div>
+                </div>
+
+
+                <!-- Text area -->
+
+                <div class="form-group">
+                    <label class="col-md-2 control-label">Description</label>
+                    <div class="col-md-6 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                            <textarea class="form-control" name="comment" placeholder="Description"
+                                      ng-model="newUser.description"
+                            ></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-2 control-label"></label>
+                    <div class="col-md-6">
+                        <button type="button"
+                                class="btn btn-danger btn-sm"
+                                ladda="isSaving"
+                                ng-click="save()"
+                                ng-disabled="userForm.$invalid">
+                            Create
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+</div><!-- /.container -->

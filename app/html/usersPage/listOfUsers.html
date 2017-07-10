@@ -1,0 +1,29 @@
+
+<div class="hero-spacer well">
+
+    <fieldset>
+        <!-- Title -->
+        <legend>All Users
+            <form class="navbar-form navbar-right" role="search" id="search-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search" ng-model="filterUser">
+                </div>
+            </form>
+        </legend>
+
+
+
+    <!-- Page Features -->
+    <div class="row text-center " id="users-row">
+
+        <user-card ng-repeat="person in userService.users | filter:filterUser"
+                   user="person"
+                   more-info="moreInfo"
+         >
+
+        </user-card>
+
+    </div>
+    <!-- /.row -->
+    </fieldset>
+</div>
