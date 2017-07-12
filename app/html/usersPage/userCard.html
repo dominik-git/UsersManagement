@@ -3,13 +3,12 @@
         <img src="http://placehold.it/800x500" alt="">
         <div class="row">
             <h3>{{user.name}} {{user.lastName}}</h3>
-            <h6>{{user.possition}}</h6>
             <h6>{{user.email}}</h6>
 
             <button type="button"
                     id="info-btn"
                     class="btn btn-default btn-sm"
-                    ng-click="moreInfo()(user,'/userInfo')"
+                    ng-click="moreInfo()(user,'userInfo')"
             >
                 <i class="fa fa-pencil"></i>Open User
             </button >

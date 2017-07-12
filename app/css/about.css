@@ -1,0 +1,13 @@
+.about_profile_row{
+    width: 95%;
+}
+.about_navigation_col{
+    background: #232323;
+    padding: 10px;
+}
+.about_profile_photo{
+    width: 100%;
+}
+.about_profile_nav{
+    margin-top: 20px;
+}

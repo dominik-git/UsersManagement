@@ -1,7 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07f82458-aabd-481a-803f-980c1970cd34" name="Default" comment="" />
+    <list default="true" id="07f82458-aabd-481a-803f-980c1970cd34" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/common/common.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/common/coreservices.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/common/glob.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/common/hof.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/common/interface.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/common/module.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/common/predicates.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/common/queue.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/common/strings.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/common/trace.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/core.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/globals.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/hooks/lazyLoadStates.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/hooks/onEnterExitRetain.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/hooks/redirectTo.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/hooks/resolve.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/hooks/url.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/hooks/views.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/directives/stateDirectives.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/directives/viewDirective.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/interface.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/legacy/resolveService.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/legacy/stateEvents.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/services.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/stateFilters.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/stateProvider.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/statebuilders/onEnterExitRetain.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/statebuilders/views.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/templateFactory.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/ng1/viewScroll.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/params/interface.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/params/module.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/params/param.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/params/paramTypes.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/params/stateParams.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/params/type.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/path/module.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/path/node.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/path/pathFactory.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/resolve/interface.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/resolve/module.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/resolve/resolvable.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/resolve/resolveContext.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/router.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/state/interface.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/state/module.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/state/stateBuilder.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/state/stateMatcher.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/state/stateObject.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/state/stateQueueManager.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/state/stateRegistry.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/state/stateService.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/state/targetState.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/transition/hookBuilder.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/transition/hookRegistry.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/transition/interface.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/transition/module.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/transition/rejectFactory.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/transition/transition.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/transition/transitionHook.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/transition/transitionService.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/url/module.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/url/urlMatcher.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/url/urlMatcherConfig.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/url/urlMatcherFactory.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/url/urlRouter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/view/interface.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/view/module.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/view/view.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/common/common.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/common/coreservices.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/common/glob.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/common/hof.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/common/interface.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/common/module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/common/predicates.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/common/queue.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/common/strings.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/common/trace.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/core.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/globals.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/hooks/lazyLoadStates.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/hooks/onEnterExitRetain.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/hooks/redirectTo.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/hooks/resolve.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/hooks/url.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/hooks/views.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/directives/stateDirectives.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/directives/viewDirective.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/interface.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/legacy/resolveService.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/legacy/stateEvents.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/services.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/stateFilters.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/stateProvider.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/statebuilders/onEnterExitRetain.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/statebuilders/views.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/templateFactory.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/ng1/viewScroll.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/params/interface.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/params/module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/params/param.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/params/paramTypes.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/params/stateParams.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/params/type.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/path/module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/path/node.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/path/pathFactory.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/resolve/interface.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/resolve/module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/resolve/resolvable.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/resolve/resolveContext.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/router.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/state/interface.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/state/module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/state/stateBuilder.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/state/stateMatcher.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/state/stateObject.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/state/stateQueueManager.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/state/stateRegistry.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/state/stateService.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/state/targetState.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/transition/hookBuilder.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/transition/hookRegistry.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/transition/interface.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/transition/module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/transition/rejectFactory.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/transition/transition.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/transition/transitionHook.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/transition/transitionService.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/url/module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/url/urlMatcher.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/url/urlMatcherConfig.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/url/urlMatcherFactory.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/url/urlRouter.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/view/interface.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/view/module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/angular-ui-router/src/view/view.ts" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/html/about/about.html" afterPath="$PROJECT_DIR$/app/html/about/aboutContainer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/libs/angular/angular.min.js.gzip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/userListController.js" afterPath="$PROJECT_DIR$/app/controllers/userListController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/about.css" afterPath="$PROJECT_DIR$/app/css/about.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/profilePage/userProfile.html" afterPath="$PROJECT_DIR$/app/html/profilePage/userProfile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/html/usersPage/userCard.html" afterPath="$PROJECT_DIR$/app/html/usersPage/userCard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.js" afterPath="$PROJECT_DIR$/app/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/.bower.json" afterPath="$PROJECT_DIR$/libs/angular-ui-router/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/CHANGELOG.md" afterPath="$PROJECT_DIR$/libs/angular-ui-router/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/libs/angular-ui-router/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/LICENSE" afterPath="$PROJECT_DIR$/libs/angular-ui-router/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/README.md" afterPath="$PROJECT_DIR$/libs/angular-ui-router/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/bower.json" afterPath="$PROJECT_DIR$/libs/angular-ui-router/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/libs/angular-ui-router/release/angular-ui-router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/angular-ui-router.js.map" afterPath="$PROJECT_DIR$/libs/angular-ui-router/release/angular-ui-router.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/libs/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/angular-ui-router.min.js.map" afterPath="$PROJECT_DIR$/libs/angular-ui-router/release/angular-ui-router.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/stateEvents.js" afterPath="$PROJECT_DIR$/libs/angular-ui-router/release/stateEvents.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/stateEvents.js.map" afterPath="$PROJECT_DIR$/libs/angular-ui-router/release/stateEvents.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/stateEvents.min.js" afterPath="$PROJECT_DIR$/libs/angular-ui-router/release/stateEvents.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular-ui-router/release/stateEvents.min.js.map" afterPath="$PROJECT_DIR$/libs/angular-ui-router/release/stateEvents.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/.bower.json" afterPath="$PROJECT_DIR$/libs/angular/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/LICENSE.md" afterPath="$PROJECT_DIR$/libs/angular/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/README.md" afterPath="$PROJECT_DIR$/libs/angular/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/angular-csp.css" afterPath="$PROJECT_DIR$/libs/angular/angular-csp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/angular.js" afterPath="$PROJECT_DIR$/libs/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/angular.min.js" afterPath="$PROJECT_DIR$/libs/angular/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/libs/angular/angular.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/bower.json" afterPath="$PROJECT_DIR$/libs/angular/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/index.js" afterPath="$PROJECT_DIR$/libs/angular/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/angular/package.json" afterPath="$PROJECT_DIR$/libs/angular/package.json" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,71 +196,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listOfUsers.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/html/usersPage/listOfUsers.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/html/homePage/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/css/about.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="939">
-              <caret line="99" column="20" lean-forward="false" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userProfileController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/userProfileController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/html/about/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="822">
+              <caret line="86" column="53" lean-forward="false" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -94,31 +209,48 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="42" column="14" lean-forward="false" selection-start-line="42" selection-start-column="14" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <marker date="1499689925159" expanded="true" signature="13:1274" ph="{...}" />
-                <marker date="1499689925159" expanded="true" signature="259:1267" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contactInfo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/html/profilePage/profileTabs/contactInfo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="1560">
+              <caret line="52" column="57" lean-forward="false" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editContact.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/html/profilePage/profileTabs/editProfile/editContact.html">
+      <file leaf-file-name="userDirective.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/directives/userDirective.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="23" column="115" lean-forward="false" selection-start-line="23" selection-start-column="115" selection-end-line="23" selection-end-column="115" />
+            <state relative-caret-position="150">
+              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userProfileDirective.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/directives/userProfileDirective.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aboutAuthorController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/aboutAuthorController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aboutContainer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/html/about/aboutContainer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -129,10 +261,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="tsconfig.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -146,6 +278,9 @@
       <find>usersController</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -154,11 +289,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/userController.js" />
-        <option value="$PROJECT_DIR$/app/directives/customerDirective.html" />
-        <option value="$PROJECT_DIR$/app/templates/home.html" />
-        <option value="$PROJECT_DIR$/app/services/dataService.js" />
-        <option value="$PROJECT_DIR$/app/templates/createUser.html" />
         <option value="$PROJECT_DIR$/app/templates/slider.html" />
         <option value="$PROJECT_DIR$/app/services/dataFactory.js" />
         <option value="$PROJECT_DIR$/app/services/dataResourceFactory.js" />
@@ -169,7 +299,6 @@
         <option value="$PROJECT_DIR$/app/templates/userProfile.html" />
         <option value="$PROJECT_DIR$/app/templates/userCard.html" />
         <option value="$PROJECT_DIR$/app/templates/listOfUsers.html" />
-        <option value="$PROJECT_DIR$/app/directives/userProfileDirective.js" />
         <option value="$PROJECT_DIR$/app/directives/profileTabs/contactInfo.js" />
         <option value="$PROJECT_DIR$/app/css/bootstrap-theme-dark.css" />
         <option value="$PROJECT_DIR$/app/controllers/userCreateController.js" />
@@ -181,7 +310,6 @@
         <option value="$PROJECT_DIR$/app/html/others/confirmDialog.html" />
         <option value="$PROJECT_DIR$/app/html/createPage/createUser.html" />
         <option value="$PROJECT_DIR$/libs/bootstrap-additions/dist/modules/datepicker.css" />
-        <option value="$PROJECT_DIR$/app/html/usersPage/userCard.html" />
         <option value="$PROJECT_DIR$/app/html/profilePage/profileTabs/jobInfo.html" />
         <option value="$PROJECT_DIR$/app/html/others/confirmDialogEdit.html" />
         <option value="$PROJECT_DIR$/app/.local-web-server.json" />
@@ -190,21 +318,28 @@
         <option value="$PROJECT_DIR$/app/directives/profileTabs/personalInfo.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/app/controllers/userListController.js" />
-        <option value="$PROJECT_DIR$/app/directives/userDirective.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/html/profilePage/profileHeaderDirective.html" />
-        <option value="$PROJECT_DIR$/app/css/main.css" />
         <option value="$PROJECT_DIR$/app/html/profilePage/profileTabs/editProfile/editPersonal.html" />
         <option value="$PROJECT_DIR$/app/html/profilePage/profileTabs/editProfile/editJob.html" />
         <option value="$PROJECT_DIR$/app/html/profilePage/profileTabs/editProfile/editContact.html" />
-        <option value="$PROJECT_DIR$/app/html/profilePage/userProfile.html" />
         <option value="$PROJECT_DIR$/app/controllers/userProfileController.js" />
-        <option value="$PROJECT_DIR$/app/css/about.css" />
-        <option value="$PROJECT_DIR$/app/main.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/html/usersPage/listOfUsers.html" />
         <option value="$PROJECT_DIR$/app/html/about/about.html" />
+        <option value="$PROJECT_DIR$/app/controllers/userListController.js" />
+        <option value="$PROJECT_DIR$/app/html/listOfUsers/userCard.html" />
+        <option value="$PROJECT_DIR$/app/directives/userDirective.js" />
+        <option value="$PROJECT_DIR$/app/directives/userProfileDirective.js" />
+        <option value="$PROJECT_DIR$/app/html/profilePage/userProfile.html" />
+        <option value="$PROJECT_DIR$/app/html/about/contactMe.html" />
+        <option value="$PROJECT_DIR$/app/html/usersPage/userCard.html" />
+        <option value="$PROJECT_DIR$/app/html/about/aboutMe.html" />
+        <option value="$PROJECT_DIR$/app/css/main.css" />
+        <option value="$PROJECT_DIR$/app/html/about/aboutContainer.html" />
+        <option value="$PROJECT_DIR$/app/css/about.css" />
+        <option value="$PROJECT_DIR$/app/controllers/aboutAuthorController.js" />
+        <option value="$PROJECT_DIR$/app/main.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -220,9 +355,10 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="2869" />
     <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1498" />
+    <option name="width" value="2902" />
+    <option name="height" value="1582" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -238,25 +374,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserManagement" />
+              <option name="myItemId" value="usersManagement" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserManagement" />
+              <option name="myItemId" value="UsersManagement" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserManagement" />
+              <option name="myItemId" value="usersManagement" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserManagement" />
+              <option name="myItemId" value="UsersManagement" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -264,11 +403,168 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usersPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profilePage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsersManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,21 +579,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="editor.config.accepted" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\angularJS\UsersManagement\app\assets\img" />
+      <recent name="D:\AngularJs\SpringB&amp;AngularJS\app\html\others" />
+      <recent name="D:\AngularJs\SpringB&amp;AngularJS" />
+      <recent name="D:\AngularJs\SpringB&amp;AngularJS\app\css" />
+      <recent name="D:\AngularJs\SpringB&amp;AngularJS\libs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\angular\UserManagement\app\assets\img" />
       <recent name="C:\projects\angular\UserManagement" />
       <recent name="C:\projects\angular\UserManagement\app" />
       <recent name="D:\AngularJs\SpringB&amp;AngularJS\app\html\usersPage" />
       <recent name="D:\AngularJs\SpringB&amp;AngularJS\app\html\homePage" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AngularJs\SpringB&amp;AngularJS\app\html\others" />
-      <recent name="D:\AngularJs\SpringB&amp;AngularJS" />
-      <recent name="D:\AngularJs\SpringB&amp;AngularJS\app\css" />
-      <recent name="D:\AngularJs\SpringB&amp;AngularJS\libs" />
-      <recent name="D:\AngularJs\SpringB&amp;AngularJS\app\js" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -699,15 +996,16 @@
       <workItem from="1499084584589" duration="11537000" />
       <workItem from="1499422565161" duration="1729000" />
       <workItem from="1499675880200" duration="7539000" />
+      <workItem from="1499720866143" duration="24308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290503000" />
+    <option name="totallyTimeSpent" value="314811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2869" y="-11" width="1942" height="1498" extended-state="7" />
-    <editor active="false" />
+    <frame x="2869" y="-11" width="2902" height="1582" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -717,14 +1015,16 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018868" sideWeight="0.50185674" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2676923" sideWeight="0.49814323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2519913" sideWeight="0.49814323" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28702703" sideWeight="0.49295774" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19252668" sideWeight="0.49295774" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -737,27 +1037,40 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31559634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22164705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018868" sideWeight="0.50185674" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293578" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956647" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2519913" sideWeight="0.49814323" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19252668" sideWeight="0.49295774" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874727" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24704619" sideWeight="0.5070422" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -777,36 +1090,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libs/AngularJS-Toaster/toaster.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/profilePage.css" />
-    <entry file="file://$PROJECT_DIR$/app/templates/userProfile.css" />
-    <entry file="file://$PROJECT_DIR$/libs/bootstrap/dist/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="2117" column="2" lean-forward="false" selection-start-line="2117" selection-start-column="2" selection-end-line="2117" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163549">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/bootstrap-theme-dark.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="1780" column="1" lean-forward="true" selection-start-line="1780" selection-start-column="1" selection-end-line="1780" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/foundation-apps/dist/css/foundation-apps.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -924,20 +1207,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/directives/userProfileDirective.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/directives/userDirective.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/directives/profileTabs/personalInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -963,7 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
           <caret line="37" column="115" lean-forward="false" selection-start-line="37" selection-start-column="115" selection-end-line="37" selection-end-column="115" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -978,7 +1246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,74 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/html/usersPage/userCard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/html/profilePage/profileHeaderDirective.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/html/profilePage/userProfile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="81" lean-forward="true" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/userCreateController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/userListController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="939">
-          <caret line="99" column="20" lean-forward="false" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="42" column="14" lean-forward="false" selection-start-line="42" selection-start-column="14" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <marker date="1499689925159" expanded="true" signature="13:1274" ph="{...}" />
-            <marker date="1499689925159" expanded="true" signature="259:1267" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,32 +1282,160 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/html/profilePage/profileTabs/editProfile/editContact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="690">
           <caret line="23" column="115" lean-forward="false" selection-start-line="23" selection-start-column="115" selection-end-line="23" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/html/about/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/userProfileController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="1290">
           <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/angular-ui-router/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/angular-ui-router/src/router.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/userListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/html/profilePage/profileHeaderDirective.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/html/usersPage/userCard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="70" />
+        <state relative-caret-position="822">
+          <caret line="86" column="53" lean-forward="false" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/userCreateController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/html/about/aboutMe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/html/about/contactMe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/html/profilePage/userProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/aboutAuthorController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="52" column="57" lean-forward="false" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/directives/userDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/directives/userProfileDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/html/about/aboutContainer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding />
         </state>
       </provider>

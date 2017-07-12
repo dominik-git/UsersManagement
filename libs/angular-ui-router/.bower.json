@@ -9,33 +9,24 @@
   "ignore": [
     "**/.*",
     "**/tsconfig.json",
+    "**/tsconfig.typedoc.json",
     "**/webpack.config.js",
     "**/node_modules",
-    "**/ng2*",
-    "**/typings",
-    "commonjs",
-    "bower_components",
-    "component.json",
     "package.json",
-    "lib",
-    "config",
-    "sample",
+    "scripts",
     "test",
-    "tests",
-    "ngdoc_assets",
-    "Gruntfile.js",
-    "files.js"
+    "src"
   ],
-  "version": "1.0.0-beta.3",
-  "homepage": "https://ui-router.github.io",
-  "_release": "1.0.0-beta.3",
+  "version": "1.0.5",
+  "homepage": "https://github.com/angular-ui/angular-ui-router-bower",
+  "_release": "1.0.5",
   "_resolution": {
     "type": "version",
-    "tag": "1.0.0-beta.3",
-    "commit": "09ec25a10bc5229768f0e485ccfa25427fbbfbfc"
+    "tag": "1.0.5",
+    "commit": "6704f0706504aca2b0d92e308530281ac31a3b29"
   },
   "_source": "https://github.com/angular-ui/angular-ui-router-bower.git",
-  "_target": "1.0.0-beta.3",
+  "_target": "^1.0.5",
   "_originalSource": "angular-ui-router",
   "_direct": true
 }

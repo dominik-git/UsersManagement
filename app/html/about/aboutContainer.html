@@ -1,0 +1,24 @@
+<div class="hero-spacer well">
+    <div class="container">
+        <div class="row about_profile_row">
+            <div class="col-xs-3 about_navigation_col ">
+                <img src="assets/img/dominik_kolesar.jpg" alt="profile_photo" class="about_profile_photo">
+                <ul class="nav about_profile_nav">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref="about.aboutMe">
+                            <span class="glyphicon glyphicon-user"></span>About me
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref="about.contactMe">
+                            <span class="glyphicon glyphicon-user"></span>Contact me
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-9">
+                <div ui-view="second"></div>
+            </div>
+        </div>
+    </div>
+</div>

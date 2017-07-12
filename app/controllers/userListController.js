@@ -12,7 +12,7 @@
             console.log('set user');
             $scope.userService.setSelectedUser(person);
             console.log('go');
-            $location.path( path );
+            $location.path(path);
         };
 
     }
